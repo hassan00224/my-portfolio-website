@@ -1,0 +1,75 @@
+profile-image {
+  display: flex;
+  justify-content: right;
+
+} 
+body {
+  background-color: dimgrey;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: darkblue;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  align-items: end;
+}
+
+nav ul {
+display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 1rem 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: wavy;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+}
+
+.project {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #333;
+  color: aqua;
+  text-align: center;
+  padding: 1rem 0;
+}
